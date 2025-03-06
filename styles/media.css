@@ -1,0 +1,29 @@
+@media (width > 1023px) {
+   .text__list-items {
+      width: 93%;
+   }
+
+   .adjusting-the-margin {
+      margin-block-end: 3px;
+   } 
+   
+   .challenge-dialog {
+      inline-size: 338.2px;
+      block-size: 55px;
+   }
+
+   .button__dialog {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .button__dialog svg {
+      margin-block-start: 5px;
+   }
+
+   .like-icon {
+      transform: scale(1.3);
+   }
+}
