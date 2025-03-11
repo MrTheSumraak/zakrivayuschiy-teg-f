@@ -1,6 +1,37 @@
 @media (width > 1023px) {
+   .page {
+      row-gap: 102px;
+   }
+
+   .header {
+   min-block-size: 38vh;
+   }
+
+   .list  {
+      row-gap: 48px;
+   }
+
+   .label-img {
+      right: 25px;
+   }
+
+   .button-form {
+      margin-block-start: 4px;
+      margin-block-end: 24px;
+   }
+
+   li svg {
+      transform: scale(1);
+   }
+
+   .margin-block-end {
+      margin-block-end: 0;
+   }
+
    .text__list-items {
-      width: 93%;
+      width: 100%;
+      padding-inline: 24px;
+      row-gap: 12px;
    }
 
    .adjusting-the-margin {
@@ -10,17 +41,6 @@
    .challenge-dialog {
       inline-size: 338.2px;
       block-size: 55px;
-   }
-
-   .button__dialog {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-   }
-
-   .button__dialog svg {
-      margin-block-start: 5px;
    }
 
    .like-icon {
