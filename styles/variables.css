@@ -4,6 +4,7 @@
    --regular-fonts: PressStart2P;
    --normal-weight: 400;
    --bold-weight: 700;
+
    --background-gradient: repeating-linear-gradient(
       to bottom,
       #d3d3d3 0 2px,
@@ -11,8 +12,10 @@
     ),
     repeating-linear-gradient(to right, #d3d3d3 0 2px, transparent 2px 4px),
     linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+
     --font-size: 18px;
     --border-black: 2px solid #000;
     --contur-heart: #000;
     --filling-heart: red;
+    --background-color: #fff
 }

@@ -135,12 +135,7 @@
 }
 
 .button:hover .button__text {
-  /* color: #fff; */
   transition-delay: 0.2s;
-}
-
-.button:hover::after{
-  transform: scaleX(1);
 }
 
 .card__icon-button:focus {
@@ -161,11 +156,10 @@
 
 .focus-border:focus-visible  {
   border: 2px solid #000;
-  width: 100%;
   transition: 0.3s ease;
 }
 
-/* .button, span {
+.button, span {
   position: relative;
 }
 
@@ -177,4 +171,20 @@
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 0.5s ease-in-out;
-} */
+}
+
+.button:hover::after{
+  transform: scaleX(1);
+}
+
+.button__text {
+  position: relative;
+  mix-blend-mode: difference;
+  z-index: 2;
+}
+
+.button__dialog svg {
+  mix-blend-mode: difference;
+  z-index: 2;
+}
+

@@ -560,11 +560,15 @@
 
       <!-- секция вывода диалога -->
 
-      <button class="button__dialog" type="submit">
+      <button
+        class="button__dialog button focus-border"
+        type="submit"
+        onclick="window['dialog-id'].showModal()"
+      >
         <svg viewBox="0 0 28 28" width="28" height="28">
           <use href="./svg/floppy-2.svg#floppy-2"></use>
         </svg>
-        <span class="button__text">сохранить на память</span>
+        <span class="button__text">Сохранить на память</span>
       </button>
 
       <!-- диалоговое окно -->
