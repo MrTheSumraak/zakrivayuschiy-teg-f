@@ -8,7 +8,7 @@
    }
 
    .list  {
-      row-gap: 48px;
+      row-gap: 50px;
    }
 
    .label-img {
@@ -16,7 +16,6 @@
    }
 
    .button-form {
-      margin-block-start: 4px;
       margin-block-end: 24px;
    }
 
@@ -40,6 +39,19 @@
 
    .like-icon {
       transform: scale(1.3);
+   }
+
+   .card__like-button {
+      /* margin-block-end: 15px; */
+   }
+
+   .dialog {
+      width: 358px;
+   }
+
+   .form-dialog {
+      inline-size: 293px;
+
    }
 
    .button__dialog {
