@@ -56,7 +56,7 @@
   transition-duration: 1.5s;
 }
 
-.like-icon:hover .main-body  {
+.like-icon:hover .main-body {
   fill: var(--contur-heart);
   transition: all;
   transform-origin: center;
@@ -64,7 +64,7 @@
 }
 
 
-.like-icon:active .main-body{
+.like-icon:active .main-body {
    fill: red;
 }
 
@@ -154,7 +154,7 @@
   transition: 0.3s ease;
 }
 
-.focus-border:focus-visible  {
+.focus-border:focus-visible {
   border: 2px solid #000;
   transition: 0.3s ease;
 }
@@ -173,7 +173,7 @@
   transition: transform 0.5s ease-in-out;
 }
 
-.button:hover::after{
+.button:hover::after { 
   transform: scaleX(1);
 }
 

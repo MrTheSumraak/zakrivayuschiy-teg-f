@@ -7,7 +7,7 @@
       min-block-size: 38vh;
    }
 
-   .list  {
+   .list {
       row-gap: 50px;
    }
 
@@ -73,13 +73,13 @@
    /* ховер на мобильном */
 
    @media (hover: hover) {
-      .button:hover::after{
+      .button:hover::after  {
          transform: scaleX(1);
        }
    }
 
    @media (hover: none) {
-      .button:active::after{
+      .button:active::after {
          transform: scaleX(1);
        }
    }

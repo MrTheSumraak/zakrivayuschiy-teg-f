@@ -35,9 +35,9 @@
 /* шапка */
 
 .header {
-  inline-size: 100%;
-  min-block-size: 49.3vh;
-  max-inline-size: 702px;
+  padding-block: 120px;
+  width: 100%;
+  max-width: 700px;
   background-color: var(--background-color, #fff);
   border: 2px solid #000;
 
@@ -96,6 +96,8 @@ li h2 {
   padding-inline: 10px;
   padding-block-start: 4px;
   padding-block-end: 6px;
+
+  border-bottom: 2px solid #000
 }
 
 li p {
@@ -110,10 +112,6 @@ li svg {
 
 li .wrapper {
   border-top: 2px solid #000;
-}
-
-li h2 {
-  border-bottom: 2px solid #000
 }
 
 button {
