@@ -53,6 +53,7 @@
   fill: var(--contur-heart);
   transform-origin: center;
   transition: all;
+  transform-origin: center;
   transition-duration: 1.5s;
 }
 
@@ -61,8 +62,8 @@
   transition: all;
   transform-origin: center;
   transition-duration: 1.5s;
+  transition-delay: 0.2s;
 }
-
 
 .like-icon:active .main-body {
    fill: red;
@@ -72,12 +73,9 @@
    fill: red;
 }
 
-
-
  .like-icon.is-liked .core {
    transform-origin: center;
    animation: core 0.3s ease-in-out forwards;
-   /* animation-delay: 0.3s; */
  }
 
  .like-icon.is-liked .main-body {
@@ -183,8 +181,7 @@
   z-index: 2;
 }
 
-.button__dialog svg {
+.decoration-svg__dialog {
   mix-blend-mode: difference;
   z-index: 2;
 }
-
