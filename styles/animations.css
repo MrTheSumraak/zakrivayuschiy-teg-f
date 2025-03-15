@@ -51,7 +51,6 @@
 
 .like-icon:hover .core {
   fill: var(--contur-heart);
-  transform-origin: center;
   transition: all;
   transform-origin: center;
   transition-duration: 1.5s;

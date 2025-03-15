@@ -29,9 +29,8 @@
   align-items: center;
   row-gap: 98px;
 
-  font-family: Inter, sans-serif;
-  font-variation-settings: 'wght' 400;
   font-family: var(--regular-fonts, sans-serif);
+  font-variation-settings: 'wght' 400;
 }
 
 /* шапка */
@@ -111,10 +110,6 @@ main {
   transform: scale(1.3);
 }
 
-.wrapper {
-  border-top: 2px solid #000;
-}
-
 button:not(.card__icon-button) {
   border: 2px solid #000;
 } 
@@ -153,6 +148,14 @@ button:not(.card__icon-button) {
   mix-blend-mode: hard-light;
 }
 
+.wrapper {
+  border-top: 2px solid #000;
+  padding-inline: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
 @supports ((text-stroke: 1px #fff) or (-webkit-text-stroke: 1px var(--background-color, #fff))) {
   .label-img {
     -webkit-text-stroke: 1px var(--background-color, #fff);
@@ -171,13 +174,6 @@ button:not(.card__icon-button) {
   display: flex;
   flex-direction: column;
   row-gap: 27px;
-}
-
-.wrapper {
-  padding-inline: 25px;
-  display: flex;
-  flex-direction: column;
-  align-items: end;
 }
 
 .button-form {
@@ -291,8 +287,8 @@ dialog::backdrop {
 
 .confirmation { 
   inline-size: 100%;
-  block-size: 40px;
   padding: 0;
+  padding-block: 12.5px;
 
   background-color: transparent;
 

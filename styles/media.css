@@ -19,10 +19,6 @@
       margin-block-end: 24px;
    }
 
-   .like-icon {
-      transform: scale(1);
-   }
-
    .margin-block-end {
       margin-block-end: 0;
    }
@@ -63,18 +59,18 @@
       transform: scale(1);
       margin-inline-start: 0;
    }
+}
 
-   /* ховер на мобильном */
+/* ховер на мобильном */
 
-   @media (hover: hover) {
-      .button:hover::after  {
-         transform: scaleX(1);
-      }
+@media (hover: hover) {
+   .button:hover::after {
+      transform: scaleX(1);
    }
+}
 
-   @media (hover: none) {
-      .button:active::after {
-         transform: scaleX(1);
-      }
+@media (hover: none) {
+   .button:active::after {
+      transform: scaleX(1);
    }
 }
