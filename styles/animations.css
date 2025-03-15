@@ -64,6 +64,12 @@
   transition-delay: 0.2s;
 }
 
+.like-icon:not(:hover) .core, 
+.like-icon:not(:hover) .main-body {
+  transition-duration: 0.3s;
+}
+
+
 .like-icon:active .main-body {
    fill: red;
 }
